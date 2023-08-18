@@ -1,0 +1,16 @@
+$black: #282828;
+$white: #a8a8a8;
+
+hr {
+    background-color : $white; 
+    margin-right : 5%; 
+    margin-left : 5%
+}
+
+@media screen and (min-width: 956px) {
+
+    .mobile-separation {
+        display: none;
+    }
+
+}

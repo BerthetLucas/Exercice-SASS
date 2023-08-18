@@ -1,0 +1,44 @@
+$white: #a8a8a8;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: start;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+
+  .title {
+    margin-bottom: 1em;
+    color: $white;
+  }
+
+  .sub-title {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: $white;
+  }
+
+  .adress {
+    margin-bottom: 1em;
+  }
+
+  .contact {
+    margin-bottom: 1em;
+  }
+}
+
+.copyright {
+    text-align: center;
+    margin-top : 1em; 
+}
+
+
+@media screen and (min-width: 956px) {
+  .container {
+   width : 40%; 
+   margin-left : 5em; 
+}
+}
